@@ -73,8 +73,11 @@ interface GifPlayerState {
 
       mat-progress-spinner {
         position: absolute;
-        top: 2em;
-        right: 2em;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
         z-index: 1;
       }
     `,
